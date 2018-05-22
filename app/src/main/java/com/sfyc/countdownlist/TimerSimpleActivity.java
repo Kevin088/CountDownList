@@ -44,6 +44,7 @@ public class TimerSimpleActivity extends AppCompatActivity implements View.OnCli
         findViewById(R.id.btn_start).setOnClickListener(this);
         findViewById(R.id.btn_pause).setOnClickListener(this);
         findViewById(R.id.btn_cancel).setOnClickListener(this);
+        
         findViewById(R.id.btn_resume).setOnClickListener(this);
         mTimerTv = (TextView) findViewById(R.id.tv_countTime);
 
